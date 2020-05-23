@@ -1,0 +1,132 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+/*int main()
+{
+	int x, y, z, m;
+	float n;
+	scanf("%d %d %d", &x, &y, &z);
+	m = x + y + z;
+	n = (float)m / 3;
+	printf("%.2f\n", n);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int x, y;
+	scanf("%d", &x);
+	if (x < 1)
+		y = x;
+	else if (x == 1)
+		y = x + 1;
+	else y = x + 2;
+	printf("%d\n", y);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	int a = n % 10;
+	int b = n / 10 % 10;
+	int c = n / 100 % 10;
+	if(a<3)
+	    printf("%d  %d  %d\n", a, b, c);
+	else if (3 <= a&&a< 5)
+		printf("%d  %d  %d\n", b, c, a);
+	else printf("%d  %d  %d\n", c, a, b);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int a, b, c, x;
+	scanf("%d%d%d", &a, &b, &c);
+	x = a <=b&&a <=c ? a : (b <= a&&b <=c ? b : c);
+	printf("%d\n", x);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int a, b, c, x, y, z;
+	scanf("%d%d%d", &a, &b, &c);
+	if (a != b && b != c && a != c)
+	{
+		x = a > b&&a > c ? a : (b > a&&b > c ? b : c);
+		y = (a > c&&a<b || a>b&&a < c) ? a : ((b > a&&b<c || b>c&&b < a) ? b : c);
+		z = a < b&&a < c ? a : (b < a&&b < c ? b : c);
+		printf("%d\t%d\t%d\n", z, y, x);
+	}
+	else printf("此三个数中有两到三个相等\n");
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int a, b, c, x;
+	scanf("%d%d%d", &a, &b, &c);
+	x = a >= b&&a >= c ? a : (b >= a&&b >= c ? b : c);
+	printf("%d\n", x);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	if (n%2== 0)
+		printf("%d为偶数\n", n);
+	else
+		printf("%d为奇数\n", n);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	if (n % 5 == 0 && n % 7 == 0)
+		printf("yes\n");
+	else
+		printf("no\n");
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	char ch;
+	scanf("%c", &ch);
+	if (ch >= 'A'&&ch <= 'Z')
+		ch += 32;
+	printf("%c\n", ch);
+	return 0;
+}
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	float a, b, c, n,x1, x2;
+	scanf("%f%f%f", &a, &b, &c);
+	if (a==0)
+	{
+		x1 = (-b / c);
+		printf("x=%g\n", x1);
+	}
+	else 
+	  {n = b * b - 4 * a*c;
+	  if (n > 0)
+	  {
+		 x1 = ((-b + sqrt(n)) / (2 * a));
+		 x2 = ((-b - sqrt(n)) / (2 * a));
+		 printf("%g %g\n", x1, x2);
+	  }
+	  else if (n == 0)
+	  {
+		 x1 = (-b / (2 * a));
+		 printf("x1=x2=%g\n", x1);
+	  }
+	  else printf("方程无实数根\n"); }
+	return 0;
+}*/
